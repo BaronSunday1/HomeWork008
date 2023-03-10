@@ -1,9 +1,8 @@
 ﻿// Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
-int ReadInput(string input)
+int ReadInput(string text)
 {
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
+  Console.WriteLine(text);
+  return Convert.ToInt32(Console.ReadLine());
 }
 int[,] FirstGenerateMatrix(int m, int n)
 {
